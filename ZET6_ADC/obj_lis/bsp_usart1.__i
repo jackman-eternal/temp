@@ -1,0 +1,5 @@
+--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\user -I ..\cmsis -I ..\Fwlib\inc
+-ID:\software\keil\Keil\STM32F1xx_DFP\2.1.0\Device\Include
+-ID:\software\keil\ARM\CMSIS\Include
+-D__UVISION_VERSION="533" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD
+-o ..\obj_lis\bsp_usart1.o --omf_browse ..\obj_lis\bsp_usart1.crf --depend ..\obj_lis\bsp_usart1.d "..\user\bsp_usart1.c"
